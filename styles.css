@@ -1,0 +1,146 @@
+body {
+  background: linear-gradient(#304352, #d7d2cc);
+  background-attachment: fixed;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(#000000, #434343);
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+nav {
+  margin-top: 9%;
+  display: flex;
+}
+
+p {
+  margin-left: 3%;
+}
+
+.fave {
+  margin-left: 4%;
+  font-size: 300%;
+}
+
+h3 {
+  position: absolute;
+  margin-left: 15%;
+  color: yellow;
+  font-size: 150%;
+}
+
+.profile {
+  text-align: center;
+  padding-top: 3%;
+}
+
+.account-icon {
+  width: 15%;
+}
+
+.favorite-icon,
+.review-icon,
+.share-icon {
+  margin-bottom: 2%;
+}
+
+.dojo {
+  margin-top: 14%;
+}
+
+.account {
+  font-size: 187%;
+}
+
+.favorite-icon,
+.review-icon,
+.share-icon {
+  width: 10%;
+  cursor: pointer;
+}
+
+.review-icon,
+.share-icon {
+  margin-left: 10%;
+}
+
+button,
+select {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  font-size: 200%;
+  color: white;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 2%;
+  background-image: linear-gradient(#8e0e00, #1f1c18);
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+  font-size: 100%;
+}
+
+.motorbike-icon {
+  position: absolute;
+  width: 3%;
+}
+
+.bike {
+  width: 100%;
+}
+
+.price {
+  color: cyan;
+}
+
+@media screen and (max-width: 1000px) {
+  .card-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 95%;
+  }
+
+  header {
+    display: block;
+  }
+
+  nav {
+    font-size: 50%;
+  }
+
+  .profile {
+    font-size: 60%;
+    margin-left: 0;
+  }
+
+  .dojo {
+    margin: 0;
+  }
+
+  .motorbike-icon {
+    position: absolute;
+    width: 10%;
+  }
+
+  h3 {
+    margin-left: 70%;
+  }
+}
