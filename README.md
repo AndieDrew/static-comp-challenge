@@ -1,6 +1,6 @@
 # Comp Challenge
 
-### A solo project by [Andrew Carlin](https://github.com/AndieDrew)
+### A solo challenge by [Andrew Carlin](https://github.com/AndieDrew)
 
 ## Description
 
